@@ -310,6 +310,10 @@ body {
   justify-content: space-between;
   margin-top: 4em;
 }
+
+/* ******************
+ *   Media Queries  *
+ ****************** */
 @media (min-width: 440px) {
   .clients {
     width: 80%;
@@ -479,12 +483,12 @@ body {
   }
   .navigation #features-toggle + .sub-menu {
     left: 9rem;
-    transition: left 200ms ease-in-out;
+    transition: left 200ms ease-in-out height 250ms ease-in-out;
   }
   .navigation #company-toggle + .sub-menu {
     left: 20rem;
     width: 7em;
-    transition: left 200ms ease-in-out;
+    transition: left 200ms ease-in-out height 250ms ease-in-out;
   }
 }
 
@@ -493,9 +497,7 @@ body {
     width: 125px;
   }
   .navigation .list-items-auth {
-    /* transform: translateX(0); */
     top: -0.75em;
-    /* right: 2em; */
   }
 
   .navigation #features-toggle + .sub-menu {
@@ -506,3 +508,4 @@ body {
     width: 7em;
   }
 }
+
